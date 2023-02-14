@@ -5,7 +5,8 @@ authors = ["Brendan Molloy <brendan@bbqsrc.net>"]
 edition = "2018"
 
 [dependencies]
-pahkat-types = { path = "../pahkat-types", features = ["structopt"] }
+pahkat-types = { git = "https://github.com/pahkat/pahkat-types", features = ["structopt"] }
+
 tokio = { version = "1.21.2", features = ["net"] }
 dialoguer = { version = "0.10.2", optional = true }
 url = "2.3.1"
