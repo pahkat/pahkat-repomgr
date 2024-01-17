@@ -22,6 +22,7 @@ fbs-build = "0.1.0"
 env_logger = "0.9.1"
 
 [build-dependencies]
+pahkat-types = { git = "https://github.com/pahkat/pahkat-types", features = ["structopt"] }
 anyhow = "1.0.65"
 fbs-build = "0.1.0"
 
